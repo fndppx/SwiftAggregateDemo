@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailDownImageController" customModule="SwiftTestDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="wIv-dw-CVQ" id="n58-5N-Gge"/>
+                <outlet property="progressLabe" destination="Kvq-LP-rdi" id="gSr-zy-gaQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvq-LP-rdi">
+                    <rect key="frame" x="266" y="289" width="69" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="KAc-Mh-Oe6"/>
+                        <constraint firstAttribute="height" constant="21" id="ohy-Qj-pSH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wIv-dw-CVQ">
+                    <rect key="frame" x="150" y="150" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="87h-8O-izh"/>
+                        <constraint firstAttribute="width" constant="300" id="bKb-8b-XZK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wIv-dw-CVQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="99h-oL-055"/>
+                <constraint firstItem="Kvq-LP-rdi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MGO-Re-bOy"/>
+                <constraint firstItem="wIv-dw-CVQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Si1-N8-9KP"/>
+                <constraint firstItem="Kvq-LP-rdi" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Xwl-1o-ghb"/>
+            </constraints>
+            <point key="canvasLocation" x="331" y="424"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (3.3.1)
+  - MJExtension (3.0.10)
+  - Reachability (3.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - MJExtension
+  - Reachability
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
